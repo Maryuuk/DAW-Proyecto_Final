@@ -1,0 +1,20 @@
+package com.rare.app.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.rare.app.service.UserService;
+
+@Controller
+@RequestMapping("/signup")
+public class RegisterUserController {
+
+	private UserService userService;
+
+	public RegisterUserController(UserService userService) {
+		super();
+		this.userService = userService;
+	}
+	
+	
+}

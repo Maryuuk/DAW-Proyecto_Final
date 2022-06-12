@@ -1,0 +1,31 @@
+package com.rare.app.service;
+
+import java.util.Arrays;
+
+import org.springframework.stereotype.Service;
+
+import com.rare.app.dto.UserRegisterDTO;
+import com.rare.app.model.Role;
+import com.rare.app.model.User;
+import com.rare.app.repository.UserRepository;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	private UserRepository userRepository;
+
+	public UserServiceImpl(UserRepository userRepository) {
+		super();
+		this.userRepository = userRepository;
+	}
+
+	@Override
+	public User save(UserRegisterDTO registerDTO) {
+		User user = new User(registerDTO.getName(), 
+				registerDTO.getLastName(), 
+				registerDTO.getEmail(), 
+				registerDTO.getPassword(), Arrays.asList(new Role("ROLE_USER")));
+		return userRepository.save(user);
+	}
+
+}

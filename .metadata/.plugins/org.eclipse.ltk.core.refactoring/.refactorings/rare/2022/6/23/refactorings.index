@@ -1,0 +1,18 @@
+1654493865686	Delete element
+1654493868888	Delete element
+1654507200328	Rename type 'User'
+1654518767453	Rename type 'RegisterController'
+1654519095414	Rename type 'RegisterUserController'
+1654519320077	Rename type 'UserRegisterDTO'
+1654519372007	Rename type 'Role'
+1654519513080	Rename type 'UserAccount'
+1654519650426	Rename type 'UserRepository'
+1654519668569	Rename type 'UserService'
+1654519700390	Rename type 'UserServiceImpl'
+1654525079244	Delete element
+1654525083430	Delete element
+1654552779923	Copy package
+1654552824816	Delete element
+1654974638810	Delete elements
+1654983908521	Rename type 'SecurityConfiguration'
+1655003080126	Delete element

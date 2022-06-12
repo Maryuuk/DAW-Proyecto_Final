@@ -1,0 +1,25 @@
+package com.rare.app.service;
+
+import org.springframework.stereotype.Service;
+
+import com.rare.app.dto.UserRegisterDTO;
+import com.rare.app.model.User;
+import com.rare.app.repository.UserRepository;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	private UserRepository userRepository;
+
+	public UserServiceImpl(UserRepository userRepository) {
+		super();
+		this.userRepository = userRepository;
+	}
+
+	@Override
+	public User save(UserRegisterDTO registerDTO) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

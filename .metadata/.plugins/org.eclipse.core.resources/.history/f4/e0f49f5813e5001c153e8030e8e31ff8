@@ -1,0 +1,10 @@
+package com.rare.app.service;
+
+import com.rare.app.dto.UserRegisterDTO;
+import com.rare.app.model.User;
+
+public interface UserService {
+
+	public User save(UserRegisterDTO registerDTO);
+	
+}

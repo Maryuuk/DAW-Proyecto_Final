@@ -1,5 +1,0 @@
-package com.rare.app.models.dao;
-
-public interface IClienteDao {
-
-}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="asswordEncoder"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="asswordEncoder"/>
+			<item value="uthenticationProvider"/>
+			<item value="&lt;/a&gt;&lt;/li&gt;"/>
+			<item value="class=&quot;nav-link scrollto&quot; th:href=&quot;@{"/>
+			<item value="&lt;li&gt;&lt;a"/>
+			<item value="img"/>
+			<item value="image"/>
+			<item value="images"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="646"/>
+		<item key="DIALOG_Y_ORIGIN" value="354"/>
+	</section>
+</section>

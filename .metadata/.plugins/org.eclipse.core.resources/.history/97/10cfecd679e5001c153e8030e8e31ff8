@@ -1,0 +1,12 @@
+package com.rare.app.service;
+
+import org.springframework.security.core.userdetails.UserDetailsService;
+
+import com.rare.app.dto.UserRegisterDTO;
+import com.rare.app.model.User;
+
+public interface UserService extends UserDetailsService {
+
+	public User save(UserRegisterDTO registerDTO);
+
+}

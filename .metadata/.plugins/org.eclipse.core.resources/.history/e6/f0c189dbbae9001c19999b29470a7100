@@ -1,0 +1,28 @@
+package com.rare.app.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.rare.app.service.UsuarioService;
+
+@Controller
+public class RegistroController {
+
+	@GetMapping({"/", "/home"})
+	public String verPaginaDeInicio() {
+		return "home";
+	}
+	
+	@GetMapping("/login")
+	public String iniciarSesion() {
+		return "login";
+	}
+	
+	@GetMapping("/contact")
+	public String contactar() {
+		return "contact";
+	}
+	
+}

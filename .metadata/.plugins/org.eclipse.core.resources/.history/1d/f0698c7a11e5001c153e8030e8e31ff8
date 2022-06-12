@@ -1,0 +1,12 @@
+package com.rare.app.dto;
+
+public class UserRegisterDTO {
+
+	private Long id;
+	private String name;
+	private String lastName;
+	private String email;
+	private String password;
+	
+	
+}

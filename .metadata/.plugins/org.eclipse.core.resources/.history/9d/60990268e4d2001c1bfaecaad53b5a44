@@ -1,0 +1,3 @@
+/* Populate tables */
+INSERT INTO clientes (id, nombre, apellidos, email, fechNac) VALUES(1, 'Andrés', 'Guzmán Pérez', 'andresgp@gmail.com', '28-03-1993');
+INSERT INTO clientes (id, nombre, apellidos, email, fechNac) VALUES(2, 'John', 'Doe Bill', 'johndb@gmail.com', '04-10-1986');

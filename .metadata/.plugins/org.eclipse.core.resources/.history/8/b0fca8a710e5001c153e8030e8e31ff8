@@ -1,0 +1,5 @@
+package com.rare.app.repository;
+
+public interface UserRepository {
+
+}

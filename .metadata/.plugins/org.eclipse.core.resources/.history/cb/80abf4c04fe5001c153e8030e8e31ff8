@@ -1,0 +1,8 @@
+package com.rare.app.security;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
+
+}
